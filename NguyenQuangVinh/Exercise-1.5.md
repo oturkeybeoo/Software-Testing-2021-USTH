@@ -20,7 +20,8 @@
 
 #### (f) Implement your repair and verify that the given test now produces the expected output. Submit a screen printout or other evidence that your new program works.
 
-    (1) private static int findLast(int[] x, int y) {
+    (1) '''
+    private static int findLast(int[] x, int y) {
         for (int i=x.length-1; i > -1; i--) {
             if (x[i] == y) {
                 return i;
@@ -28,8 +29,10 @@
         }
         return -1;
     }
+'''
 
-    (2) public static int lastZero (int[] x)
+    (2)''' 
+    public static int lastZero (int[] x)
     {
         for (int i=x.length-1; i > -1; i--)
         {
@@ -40,8 +43,9 @@
         }
         return -1;
     }
-
-    (3) private static int countPositive (int[] x)
+'''
+    (3) '''
+    private static int countPositive (int[] x)
     {
         int count = 0;
         for (int i=0; i < x.length; i++)
@@ -53,8 +57,9 @@
         }
         return count;
     }
-
-    (4) private static int oddOrPos(int[] x)
+'''
+    (4) '''
+    private static int oddOrPos(int[] x)
     {
         int count = 0;
         for (int i = 0; i < x.length; i++) {
@@ -64,3 +69,4 @@
         }
         return count;
     }
+'''
