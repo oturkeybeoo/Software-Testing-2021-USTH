@@ -17,7 +17,7 @@
 #### (d) If possible give a test case that results in an error, but not a failure. If not, briefly explain why not. Hint: Don’t forget about the program counter.
 
     (1) 
-'''java
+```java
     private static int findLast(int[] x, int y) {
         for (int i=x.length-1; i > -1; i--) {
             if (x[i] == y) {
@@ -26,10 +26,10 @@
         }
         return -1;
     }
-'''
+```
 
     (2)
-''' java
+```java
     public static int lastZero (int[] x)
     {
         for (int i=x.length-1; i > -1; i--)
@@ -41,9 +41,9 @@
         }
         return -1;
     }
-'''
+```
     (3) 
-'''java
+```java
     private static int countPositive (int[] x)
     {
         int count = 0;
@@ -56,9 +56,9 @@
         }
         return count;
     }
-'''
+```
     (4) 
-'''java
+```java
     private static int oddOrPos(int[] x)
     {
         int count = 0;
@@ -69,4 +69,4 @@
         }
         return count;
     }
-'''
+```

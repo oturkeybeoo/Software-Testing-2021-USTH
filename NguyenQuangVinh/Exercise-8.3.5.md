@@ -1,5 +1,5 @@
 ## Answer the following questions for the method checkIt() below:
-'''java
+```java
 public static void checkIt (boolean a, boolean b, boolean c)
 {
     if (a && (b || c))
@@ -7,7 +7,7 @@ public static void checkIt (boolean a, boolean b, boolean c)
     else
         System.outprintln("P is not true");
 }
-'''
+```
 
 #### (a) Transform checkIt() to checkItExpand(), a method where each if statement tests exactly one boolean variable. Instrument checkItExpand() to record which edges are traversed. (“print” statements are fine for this.)
 

@@ -2,7 +2,7 @@
 
 #### (a) Write a Java method with the signature public static Vector union (Vector a, Vector b) The method should return a Vector of objects that are in either of the two argument Vector
 
-    '''java
+```java
     public static Vector union (Vector a, Vector b) {
         for (Object i: b) {
             if (!a.contains(i)) {
@@ -11,7 +11,7 @@
         }
         return a;
     }
-    '''
+```
 
 
 #### (b) Upon reflection, you may discover a variety of defects and ambiguities in the given assignment. In other words, ample opportunities for faults exist. Describe as many possible faults as you can. (Note: Vector is a Java Collection class. If you are using another language, interpret Vector as a list.)
@@ -24,15 +24,16 @@
 
 #### (c) Create a set of test cases that you think would have a reasonable chance of revealing the faults you identified above. Document a rationale for each test in your test set. If possible, characterize all of your rationales in some concise summary. Run your tests against your implementation.
 
-'''java
+```java
     public static boolean null_test (Vector a) {
         if (a == null) {
             return true;
         }
         return false;
     }
-'''
-'''java
+```
+
+```java
     public static boolean type_test (Vector a) {
         for (Object i: a) {
             if (i.getClass() != a.get(0).getClass()) {
@@ -41,8 +42,9 @@
         }
         return false;
     }
-'''
-'''java
+```
+
+```java
     public static boolean type_test (Vector a, Vector b) {
         for (Object i: a) {
             for (Object j: b) {
@@ -53,10 +55,10 @@
         }
         return false;
     }
-'''
+```
 #### (d) Rewrite the method signature to be precise enough to clarify the defects and ambiguities identified earlier. You might wish to illustrate your specification with examples drawn from your test cases.
 
-'''java
+```java
     public static Vector union (Vector a, Vector b) {
         if (null_test(a) && null_test(b)) {
             System.out.println("NullPointError: Vector cannot be null \n a and/or b is");
@@ -93,4 +95,4 @@
         }
         return a;
     }
-'''
+```

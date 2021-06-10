@@ -1,5 +1,5 @@
 ## For the following questions a–c, consider the FSM that models a (simplified) programmable thermostat. Suppose the variables that define the state and the methods that transition between states are:
-'''java
+```java
 partOfDay: {Wake, Sleep}
 temp: {Low, High}
 
@@ -13,7 +13,7 @@ public void up();
 
 // Effects: Make Current temp lower, if possible
 public void down();
-'''
+```
 
 #### (a) How many states are there?
 

@@ -6,7 +6,7 @@
 
 #### (a) Draw the Karnaugh maps for f and f.
 
-#### (b) Find the nonredundant prime implicant representation for f and f.
+#### (b) Find the non redundant prime implicant representation for f and f.
 
 #### (c) Give a test set that satisfies Implicant Coverage (IC) for f.
 

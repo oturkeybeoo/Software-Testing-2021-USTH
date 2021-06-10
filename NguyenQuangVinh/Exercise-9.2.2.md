@@ -1,6 +1,6 @@
 ## Answer questions (a) through (d) for the mutant on line 5 in the method findVal().
 
-'''java
+```java
 /**
  * Find last index of element
  * 
@@ -19,7 +19,7 @@ public static int findVal(int numbers[], int val)
             findVal = i;
     return (findVal); 
 }
-'''
+```
 
 #### (a) If possible, find test inputs that do not reach the mutant.
 
