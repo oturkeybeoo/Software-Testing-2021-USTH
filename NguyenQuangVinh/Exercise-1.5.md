@@ -14,13 +14,10 @@
     (3) x = [-2, 3, 1, -5, 2]
     (4) x = [1, 2, 3, 4, 5, 6]
 
-#### (c) If possible, give a test case that executes the fault, but does not result in an error state. If not, briefly explain why not.
+#### (d) If possible give a test case that results in an error, but not a failure. If not, briefly explain why not. Hint: Don’t forget about the program counter.
 
-#### (d) If possible give a test case that results in an error, but not a failure. If not, briefly explain why not. Hint: Don’t forget about the program counter.(e) For the given test case, describe the first error state. Be sure to describe the complete state.
-
-#### (f) Implement your repair and verify that the given test now produces the expected output. Submit a screen printout or other evidence that your new program works.
-
-    (1) '''
+    (1) 
+'''java
     private static int findLast(int[] x, int y) {
         for (int i=x.length-1; i > -1; i--) {
             if (x[i] == y) {
@@ -31,7 +28,8 @@
     }
 '''
 
-    (2)''' 
+    (2)
+''' java
     public static int lastZero (int[] x)
     {
         for (int i=x.length-1; i > -1; i--)
@@ -44,7 +42,8 @@
         return -1;
     }
 '''
-    (3) '''
+    (3) 
+'''java
     private static int countPositive (int[] x)
     {
         int count = 0;
@@ -58,7 +57,8 @@
         return count;
     }
 '''
-    (4) '''
+    (4) 
+'''java
     private static int oddOrPos(int[] x)
     {
         int count = 0;
