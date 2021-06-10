@@ -16,7 +16,12 @@ public void down();
 ```
 
 #### (a) How many states are there?
-
+    There are 4 states: 
+        (Wake, Low)
+        (Wake, High)
+        (Sleep, Low)
+        (Sleep, High)
+        
 #### (b) Draw and label the states (with variable values) and transitions (with method names). Notice that all of the methods are total, that is, their behaviors are defined for all possible inputs.
 
 #### (c) A test case is simply a sequence of method calls. Provide a test set that satisfies Edge Coverage on your graph.
